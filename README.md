@@ -28,3 +28,15 @@ CHANNEL_ID=your channel ID, e.g. -1001234567890
 ```bash
 uvicorn main:app --host 0.0.0.0 --port 5000
 ```
+
+<h2>Usage</h2>
+
+<p>1. <b>Encode</b> the email address in Base64.</p>
+
+<p>2. <b>Set</b> this URL as an image attachment in your mailing app:</p>
+
+```
+https://your-server-ip:5000/seen?e=<base64-encoded-email>
+```
+
+<p><b>Done!</b> Alerts will be sent to Telegram when the email is opened.</p>
