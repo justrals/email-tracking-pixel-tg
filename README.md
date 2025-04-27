@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 ```bash
 TOKEN=your API token from @BotFather
-CHANNEL_ID=your channel ID, e.g. -1001234567890
+CHAT_ID=your chat ID, e.g. 12345670
 ```
 <p>4. Run application</p>
 
