@@ -36,7 +36,7 @@ uvicorn main:app --host 0.0.0.0 --port 5000
 <p>2. <b>Set</b> this URL as an image attachment in your mailing app:</p>
 
 ```
-https://your-server-ip:5000/seen?e=<base64-encoded-email>
+http://your-server-ip:5000/seen?e=<base64-encoded-email>
 ```
 
 <p><b>Done!</b> Alerts will be sent to Telegram when the email is opened.</p>
